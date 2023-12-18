@@ -1,0 +1,46 @@
+{
+  "name": "@vitepress-util/color",
+  "version": "1.0.2",
+  "author": "crystal-platform",
+  "license": "MIT",
+  "description": "Color Preview Plugin for Vitepress",
+  "keywords": [
+    "vitepress",
+    "color",
+    "plugin",
+    "preview",
+    "component",
+    "markdown"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XHanL/vitepress-color.git"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types.d.ts",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "README.zh-CN.md"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/node": "^20.10.4",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.5"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.10"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "pack": "npm pack",
+    "publish": "npm publish --access=public"
+  }
+}
