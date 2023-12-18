@@ -4,7 +4,7 @@
 
 ### 适用于 Vitepress 组件演示插件
 
-### [前往演示](https://xhanl.github.io/vitepress-demo-website/zh/examples.html#%E7%A4%BA%E4%BE%8B)
+### [前往演示](https://xhanl.github.io/vitepress-util-doc/zh/examples.html#%E7%A4%BA%E4%BE%8B)
 
 ## 特性
 

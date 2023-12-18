@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "https://github.com/XHanL/vitepress-util/tree/main/demo"
   },
   "type": "module",
   "main": "dist/index.js",

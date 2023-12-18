@@ -97,7 +97,6 @@ export function demoVitePlugin(): Plugin {
           const moduleGraph = server.moduleGraph;
           const moduleMap = moduleGraph.idToModuleMap;
           const module = moduleMap.get(md)!;
-          //Vite 貌似没有一种直接方式手动移除无效模块
           server.reloadModule(module);
         });
       }

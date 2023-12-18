@@ -1,6 +1,6 @@
 {
   "name": "@vitepress-util/color",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "crystal-platform",
   "license": "MIT",
   "description": "Color Preview Plugin for Vitepress",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/XHanL/vitepress-color.git"
+    "url": "https://github.com/XHanL/vitepress-util/tree/main/color"
   },
   "type": "module",
   "main": "dist/index.js",
