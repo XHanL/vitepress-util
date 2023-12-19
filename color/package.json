@@ -1,6 +1,6 @@
 {
   "name": "@vitepress-util/color",
-  "version": "1.0.3",
+  "version": "1.0.9",
   "author": "crystal-platform",
   "license": "MIT",
   "description": "Color Preview Plugin for Vitepress",

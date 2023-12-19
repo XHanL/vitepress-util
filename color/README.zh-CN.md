@@ -53,7 +53,17 @@ export default defineConfig({
 ### 附加参数
 
 - ### [#000000:light]
+- ### [#000000:light-x-thick]
+- ### [#000000:light-thick]
+- ### [#000000:light-medium]
+- ### [#000000:light-thin]
+- ### [#000000:light-x-thin]
 - ### [#FFFFFF:dark]
+- ### [#FFFFFF:dark-x-thick]
+- ### [#FFFFFF:dark-thick]
+- ### [#FFFFFF:dark-medium]
+- ### [#FFFFFF:dark-thin]
+- ### [#FFFFFF:dark-x-thin]
 
 ## 许可
 

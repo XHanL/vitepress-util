@@ -34,7 +34,7 @@ export default defineComponent({
         mode: {
             type: String,
             required: true,
-            validator: (v: string) => ['system', 'light', 'dark'].includes(v)
+            validator: (v: string) => ['system', 'light', 'light-x-thick', 'light-thick', 'light-medium', 'light-thin', 'light-x-thin', 'dark', 'dark-x-thick', 'dark-thick', 'dark-medium', 'dark-thin', 'dark-x-thin'].includes(v)
         },
     },
     computed: {
@@ -83,12 +83,72 @@ button {
 
 .light-mode {
     background-color: rgba(255, 255, 255, 0.9);
-    color: rgb(60, 60, 67);
+    color: #000000;
+}
+
+.light-x-thick-mode {
+    background: rgba(246, 246, 246, 0.84);
+    backdrop-filter: blur(15px);
+    color: #000000;
+}
+
+.light-thick-mode {
+    background: rgba(246, 246, 246, 0.72);
+    backdrop-filter: blur(15px);
+    color: #000000;
+}
+
+.light-medium-mode {
+    background: rgba(246, 246, 246, 0.60);
+    backdrop-filter: blur(15px);
+    color: #000000;
+}
+
+.light-thin-mode {
+    background: rgba(246, 246, 246, 0.48);
+    backdrop-filter: blur(15px);
+    color: #000000;
+}
+
+.light-x-thin-mode {
+    background: rgba(246, 246, 246, 0.36);
+    backdrop-filter: blur(15px);
+    color: #000000;
 }
 
 .dark-mode {
     background-color: rgba(27, 27, 31, 0.85);
-    color: rgba(255, 255, 245, 0.86);
+    color: #ffffff;
+}
+
+.dark-x-thick-mode {
+    background: rgba(0, 0, 0, 0.50);
+    backdrop-filter: blur(15px);
+    color: #ffffff;
+}
+
+.dark-thick-mode {
+    background: rgba(0, 0, 0, 0.40);
+    backdrop-filter: blur(15px);
+    color: #ffffff;
+}
+
+.dark-medium-mode {
+    background: rgba(0, 0, 0, 0.30);
+    backdrop-filter: blur(15px);
+    color: #ffffff;
+}
+
+.dark-thin-mode {
+    background: rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(15px);
+    color: #ffffff;
+}
+
+.dark-x-thin-mode {
+    background: rgba(0, 0, 0, 0.10);
+    backdrop-filter: blur(15px);
+    color: #ffffff;
 }
 
 button:hover {

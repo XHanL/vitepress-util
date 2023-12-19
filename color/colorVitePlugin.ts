@@ -17,7 +17,7 @@ const LINK_RE = /\[(.*?)\]\((.*?)\)/gi;
 const TOC_RE = /\[\[toc\]\]/gi;
 const PLACEHOLDER_RE = /\uffff(.*?)\uffff/gis;
 const COLOR_RE =
-  /\[(#[0-9A-Fa-f]{3}|#[0-9A-Fa-f]{6}|#[0-9A-Fa-f]{8}|rgba\(.*?\)|rgb\(.*?\)|hsla\(.*?\)|hsl\(.*?\))(?:\:(dark|light))?\]/gis;
+  /\[(#[0-9A-Fa-f]{3}|#[0-9A-Fa-f]{6}|#[0-9A-Fa-f]{8}|rgba\(.*?\)|rgb\(.*?\)|hsla\(.*?\)|hsl\(.*?\))(?:\:(light\-x\-thick|light\-thick|light\-medium|light\-thin|light\-x\-thin|light|dark\-x\-thick|dark\-thick|dark\-medium|dark\-thin|dark\-x\-thin|dark))?\]/gis;
 
 //String
 const VIRTUAL_ID = "virtual:ColorPreview.vue";
